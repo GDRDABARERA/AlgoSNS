@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AlgoSNS</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="algo">Algorithms</string>
+    <string name="ds">Data Struct:</string>
+    <string name="quiz">Quiz</string>
+    <string name="exit">Exit</string>
+    <string name="topic">Algo Short N Sweet</string>
+    <string name="data">What is an algorithm? \n        \n        An algorithm is a procedure to accomplish a specific task.\nAn algorithm is the idea behind any reasonable computer program.</string>
+    <string name="altitle">Types of Algorithms</string>
+    <string name="sort">Sorting Algo</string>
+    <string name="search">Searching Algo</string>
+    <string name="graph">Graph Algo</string>
+    <string name="topicsort">Some Popular Sorting Algorithms</string>
+    <string name="buble">Bubble Sort</string>
+    <string name="insert">Insertion Sort</string>
+    <string name="select">Selection Sort</string>
+    <string name="merge">Merge Sort</string>
+    <string name="heap">Heap Sort</string>
+    <string name="quick">Quick Sort</string>
+    <string name="back">Back</string>
+
+</resources>

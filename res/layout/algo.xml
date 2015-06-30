@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cc9999"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="134dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/data"
+        android:textColor="#000066" />
+
+    <Button
+        android:id="@+id/button_sort"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_graph"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_marginBottom="41dp"
+        android:layout_marginLeft="56dp"
+        android:layout_toLeftOf="@+id/button1"
+        android:background="#000000"
+        android:text="@string/sort"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/button_graph"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button_sort"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/button_sort"
+        android:layout_marginBottom="49dp"
+        android:background="#000000"
+        android:text="@string/graph"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/button_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button_sort"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/button1"
+        android:background="#000000"
+        android:text="@string/search"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="238dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/altitle"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/red"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/back" />
+
+</RelativeLayout>
